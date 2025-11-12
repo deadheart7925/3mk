@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>كمبيوتر العصابة</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="desktop" id="desktop">
+        <div class="top-bar">
+            <span id="gang-name">كمبيوتر العصابة</span>
+            <button id="close-btn" aria-label="إغلاق">×</button>
+        </div>
+        <div class="desktop-body">
+            <aside class="intel-panel">
+                <h2>التقارير</h2>
+                <div id="intel-list" class="intel-list"></div>
+            </aside>
+            <main class="apps">
+                <h2>التطبيقات</h2>
+                <div id="apps-grid" class="apps-grid"></div>
+            </main>
+        </div>
+        <footer class="status-bar">
+            <span id="rank-label"></span>
+            <span id="clock"></span>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

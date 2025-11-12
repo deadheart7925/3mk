@@ -1,68 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>discord.gg/</title>
+    <title>Gang Computer Resource</title>
     <style>
         body {
             margin: 0;
-            padding: 0;
-            background: url('https://i.pinimg.com/originals/51/ae/a3/51aea3393b8234a1e69d8713a0a58bc3.gif') no-repeat center center fixed;
-            background-size: cover;
-            font-family: 'Courier New', Courier, monospace;
-            color: #0000ff;
+            font-family: 'Tajawal', 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #190933, #080b2a);
+            color: #f2f2ff;
             display: flex;
-            justify-content: center;
             align-items: center;
-            height: 100vh;
-            flex-direction: column;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        main {
+            max-width: 760px;
+            background: rgba(20, 16, 40, 0.8);
+            border-radius: 20px;
+            padding: 2.5rem;
+            box-shadow: 0 18px 60px rgba(0, 0, 0, 0.35);
+        }
+        h1 {
+            margin-top: 0;
+            color: #9d59ff;
             text-align: center;
         }
-        .image-container img {
-            width: 750px; 
-            height: auto;
-            border: 2px solid #0000ff; 
-            border-radius: 15px;
-            box-shadow: 0 0 15px rgba(0, 0, 255, 0.7); 
+        p {
+            line-height: 1.7;
         }
-        .info {
-            margin-top: 20px;
-            font-size: 1.5em;
-            color: #0000ff; 
-            text-shadow: 0px 0px 8px #0000ff, 0px 0px 15px #0000ff, 0px 0px 25px #0000ff; 
-            letter-spacing: 4.5px; 
-            white-space: pre-wrap;
-        }
-        .text {
-            margin-top: 20px;
-            font-size: 3em; 
-            color: #0000ff; 
-            text-shadow: 0px 0px 8px #0000ff, 0px 0px 15px #0000ff, 0px 0px 25px #0000ff; 
-            letter-spacing: 4.5px; 
+        code {
+            background: rgba(157, 89, 255, 0.2);
+            padding: 0.25rem 0.5rem;
+            border-radius: 6px;
         }
     </style>
 </head>
 <body>
-    <div class="image-container">
-        <img src="https://l.top4top.io/p_32131zd9t1.png" alt="Discord Image">
-    </div>
-    <audio autoplay loop>
-        <source src="(https://www.youtube.com/shorts/Kue8rKGDyWQ)" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-<div class="text">فصو لا تتحدا</div>
-    </div>
-    <div class="text">discord.gg/</div>
-
-    <script>
-         fetch('https://ipinfo.io/json')
-        .then(response => response.json())
-        .then(data => {
-            delete data.readme;
-            const infoDiv = document.getElementById('ip-info');
-            infoDiv.textContent = JSON.stringify(data, null, 2);
-        });
-    </script>
+<main>
+    <h1>سكربت كمبيوتر العصابة</h1>
+    <p>للاطلاع على طريقة التركيب والتخصيص، تفضل بقراءة ملف <code>README.md</code> داخل المستودع. السكربت يدعم نظام العين <strong>qb-target</strong> ويمنح العصابات واجهة سطح مكتب خاصة بهم عند استخدام زر <kbd>Alt</kbd>.</p>
+</main>
 </body>
 </html>
